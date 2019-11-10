@@ -1,0 +1,56 @@
+.widget {
+    width: 300px;
+    height: 156px;
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    text-align: center;
+    background: #1778dd;
+    padding: 4px;
+}
+.widget_upper {
+    height: 50%;
+    display: flex;
+}
+.widget_upper__weather_image {
+    width: 40%;
+    border: 1px solid white;
+}
+.today_info {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 1px solid white;
+}
+.today_temp {
+    display: flex;
+}
+.today_temp__current {
+    width: 50%;
+    font-size: 26px;
+    text-align: center;
+    font-weight: bold;
+}
+.today_temp__hl {
+    width: 50%;
+}
+.hl__higher_temp {
+    border-bottom: 1px solid;
+}
+.city_name {
+    text-align: center;
+}
+.today_date {
+    text-align: center;
+}
+.widget_lower {
+    display: flex;
+}
+.other_day {
+    width: 16%;
+    border: 1px solid white;
+}
+.weather_image__icon {
+    height: 25px;
+}
