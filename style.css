@@ -47,17 +47,20 @@
 .info__date {
     text-align: center;
 }
-.widget_lower {
+.widget_lower__week_info {
     display: flex;
+    margin: 0;
+    padding-left: 0;
 }
-.widget_lower__other_day {
+.week_info__day {
     width: 17%;
     border-radius: 0 0 5px 5px;
     border-width: 0 0 1px 1px;
     border-style: solid;
     border-color: white;
+    list-style-type: none;
 }
-.widget_lower__other_day:last-child {
+.week_info__day:last-child {
     border-width: 0 1px 1px 1px;
 }
 .weather_image__icon {
